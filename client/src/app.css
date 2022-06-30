@@ -1,0 +1,54 @@
+body{
+
+height: 100vh;
+display :flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.container{
+width : 50vh ;
+border: 0.5px solid red;
+border-radius : 5px;
+
+
+}
+.login{
+
+height:50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+input{
+width :50%;
+padding : 10px;
+margin-bottom: 20px;
+}
+button{
+width: 60%;
+padding : 10px;
+background-color: springgreen;
+color: rgb(224, 91, 50);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-style: italic;
+font-weight: 900;
+font-size: large;
+
+
+}
+
+.username{
+font-weight: bold;
+color: darkcyan;
+position: absolute;
+top: 15px;
+right: 20px;
+
+
+}
